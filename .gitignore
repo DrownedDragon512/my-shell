@@ -1,0 +1,13 @@
+# Compiled binary
+shell
+
+# Object files
+*.o
+
+# Editor temp files
+*~
+*.swp
+*.swo
+
+# Output files
+out.txt
