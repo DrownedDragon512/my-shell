@@ -83,6 +83,12 @@ int main(int argc, char *argv[]) {
             continue;
         }
 
+        if (!strcmp(args[0], "help")) {
+            print_help();
+            continue;
+        }
+
+
         if (n_cmds == 1) {
             pid_t pid = fork();
             if (pid == 0) {

@@ -3,6 +3,23 @@
 #include <unistd.h>
 #include <pwd.h>
 
+void print_help() {
+    printf(
+        "\nBuilt-in commands:\n"
+        "  cd <dir>        Change directory\n"
+        "  exit            Exit the shell\n"
+        "  jobs            List background jobs\n"
+        "  fg <job_id>     Bring job to foreground\n"
+        "  goat            Show ASCII art\n"
+        "  description     About this project\n"
+        "  help            Show this help message\n\n"
+        "Supports:\n"
+        "  - Pipes: |\n"
+        "  - Redirection: <  >  >>\n"
+        "  - Background execution: &\n\n"
+    );
+}
+
 void print_description() {
     printf(
         "\n"
