@@ -22,3 +22,6 @@ A lightweight, POSIX-compatible Linux shell implemented in **C**, designed to de
   ```bash
   ls | wc -l
   ps aux | grep root | wc -l
+
+
+<img width="1919" height="992" alt="image" src="https://github.com/user-attachments/assets/8c00c416-748f-439e-a8a6-f54478fc66a3" />
