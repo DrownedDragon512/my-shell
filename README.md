@@ -139,25 +139,13 @@ make
 
 ---
 
-## Future Improvements
+## Future Improvements which I wish to do
 
 * Command history using `readline`
 * Tab completion
 * Better signal handling (`SIGINT`, `SIGTSTP`)
 * Environment variable support
 * Improved parser using `lex/yacc`
-
----
-
-## Academic Notes
-
-This project demonstrates:
-
-* Strong understanding of UNIX process model
-* Practical application of OS concepts
-* Modular C programming and build systems
-
-Suitable as a **B.Tech 3rd-year Operating Systems project**.
 
 ---
 
