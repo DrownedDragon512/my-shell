@@ -2,7 +2,7 @@
 
 ## Overview
 
-**my-shell** is a custom UNIX-like command-line shell implemented in **C**, designed to understand and demonstrate core **Operating Systems concepts** such as process creation, job control, inter-process communication, and signal handling.
+**my-shell** is a custom UNIX-like command-line shell implemented in **C**, designed to understand, demonstrate and explore core **Operating Systems concepts** such as process creation, job control, inter-process communication, and signal handling.
 
 The project was built as a **systems-level learning exercise**, focusing on *how a real shell works internally*, rather than just executing commands.
 
